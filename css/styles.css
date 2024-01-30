@@ -379,7 +379,9 @@ select:disabled {
 [list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
   display: none !important;
 }
-
+/* toHover:hover {
+  background-color: #000;
+} */
 button,
 [type=button],
 [type=reset],
